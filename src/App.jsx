@@ -11,7 +11,7 @@ import dumm from "./m";
 function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [routeData, setRouteData] = useState(dumm);
+  const [routeData, setRouteData] = useState(null);
   const [isOpen, setIsOpen] = useState(true);
 
   const calculateRoute = async (formData) => {
